@@ -1,0 +1,174 @@
+body{
+    margin:0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+ 
+}
+header{
+    height:90px;
+    width: 100%;
+    background-color:black;
+    position: fixed;
+    top:0;
+    left:0;
+    text-align: center;
+    font-family:cambria;
+    z-index: 5;
+}
+
+.one{
+    color:green;   
+    text-shadow:0px 0px 5px green;
+}
+header h1 {
+    padding-top:5px ;
+    padding-left: 24px;
+    padding-right: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    
+}
+header h3{
+    float: right;
+    margin:24px;
+
+}
+.hello{
+    float: left;
+}
+.bu{
+    float:right;
+    margin:24px;
+    background-color: black;
+    color: white;
+    border-color:white ;
+    height: 30px;
+    border-radius: 100px;
+    width: 80px;
+}
+.butt:hover{
+    color: teal;
+}
+.hello li,a{
+    float: left;
+    list-style: none;
+    padding-right:20px; 
+    padding-top: 9px;
+    color:white;
+    font-size: 17px;
+    text-decoration: none;
+}
+.hello li,a:hover{
+    color: lightblue;
+}
+.main{
+    position: relative;
+    top:50%;
+    transform: translateY(20%);
+    height:600px;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+}
+.main span{
+    color: green;
+}
+.butt{
+    font-size: 22px;
+    color: white;
+    height:44px;
+    width: 200px;
+    background-color: orange;
+    
+    border: none;
+    border-radius: 10px;
+
+}.butt:hover{
+    background-color: #fa8128;
+    color:white;
+}
+.about{
+    height:700px;
+    background-color:lightblue;
+    
+    
+}
+.about h1{
+    font-size: 55px;
+    padding-top:170px ;
+    color: white;
+    text-align: center;
+    
+}
+.about p{
+    font-size:36px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.about h1:after{
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 50%; 
+    padding-top: 20px; 
+    border-bottom: 2px solid white; 
+}
+.courses{
+    margin:0px;
+    height:500px;
+    background-color: rgb(255, 183, 50);
+}
+
+.courses
+{
+    color: white;
+    font-size: 30px;
+    padding:150px;
+    
+    
+}
+.courses a{
+    font-size: 40px;
+    color:white;
+}
+.courses h1:after{
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 100%; 
+    padding-top: 20px;
+    border-bottom: 2px solid white; 
+}
+.Contactus{
+    height:600px;
+    background-color: white;
+    color: black;
+}
+.Contactus{
+    padding: 60px;
+    font-size: 40px;
+}
+.Contactus h1:after{
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 100%; 
+    padding-top: 20px;
+    border-bottom: 2px solid black; 
+}
+footer{
+    height:160px;
+    background-color: rgb(10, 10, 15);
+    padding: 50px;
+}
+footer h1,p{
+    padding: 10px;
+    color: grey;
+}
+footer p{
+    float: right;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
