@@ -126,6 +126,7 @@ header h3{
     color: white;
     font-size: 30px;
     padding:150px;
+    align-items: center;
     
     
 }
@@ -141,23 +142,60 @@ header h3{
     padding-top: 20px;
     border-bottom: 2px solid white; 
 }
-.Contactus{
-    height:600px;
-    background-color: white;
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    float:right;
+    padding-left: 49px;
+    perspective: 1000px; 
+  }
+  
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+
+  .flip-card-front {
+    background-color: aqua;
     color: black;
-}
-.Contactus{
-    padding: 60px;
-    font-size: 40px;
-}
-.Contactus h1:after{
-    content: ""; 
-    display: block; 
-    margin: 0 auto; 
-    width: 100%; 
-    padding-top: 20px;
-    border-bottom: 2px solid black; 
-}
+    ;
+  }
+  .flip-card-front h1{
+      padding-top: 80px;
+  }
+  
+ 
+  .flip-card-back {
+    background-color: orangered;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-card-back p{
+      color: white;
+  }
+
 footer{
     height:160px;
     background-color: rgb(10, 10, 15);
