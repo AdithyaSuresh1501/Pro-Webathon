@@ -14,8 +14,16 @@ header{
     text-align: center;
     font-family:cambria;
     z-index: 5;
+  box-sizing: border-box;
+  transition: background-color 0.4s ease-out;
 }
-
+.scroll {
+  background-color: orange;
+  color: #eef;
+}
+.yo{
+    background-color: lightblue;
+}
 .one{
     color:green;   
     text-shadow:0px 0px 5px green;
